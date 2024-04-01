@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Lookup a definition" skipped="0" tests="2" time="33.28" timestamp="2024-03-31 10:58:57"><testcase name="Looking up the definition of 'apple'"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)&#13;
+org.example.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)&#13;
+</system-err></testcase><testcase name="Looking up the definition of 'pear'"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)&#13;
+org.example.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,69 @@
+<div class="story">
+<h1>Lookup a definition</h1>
+<div class="path">stories/consult_dictionary/LookupADefinition.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> talk better</div>
+<div class="element asA"><span class="keyword asA">As a</span> n English student</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> look up word definitions</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Looking up the definition of 'apple'</h2>
+<div class="step failed">Given the user is on the Wikionary home page <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</span></div>
+<div class="step notPerformed">When the user looks up the definition of the word 'apple' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:132)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:102)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:172)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:909)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:810)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:798)
+	at org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at org.example.steps.serenity.EndUserSteps$ByteBuddy$1I6R18TY.is_the_home_page$accessor$guRRUOyl(Unknown Source)
+	(reflection-invoke)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at org.example.steps.serenity.EndUserSteps$ByteBuddy$1I6R18TY.is_the_home_page(Unknown Source)
+	at org.example.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:790)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:349)
+...</pre>
+</div>
+<div class="scenario">
+<h2>Scenario: Looking up the definition of 'pear'</h2>
+<div class="step failed">Given the user is on the Wikionary home page <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</span></div>
+<div class="step notPerformed">When the user looks up the definition of the word 'pear' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:132)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:102)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:172)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:909)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:810)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:798)
+	at org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at org.example.steps.serenity.EndUserSteps$ByteBuddy$1I6R18TY.is_the_home_page$accessor$guRRUOyl(Unknown Source)
+	(reflection-invoke)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at org.example.steps.serenity.EndUserSteps$ByteBuddy$1I6R18TY.is_the_home_page(Unknown Source)
+	at org.example.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:790)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:349)
+...</pre>
+</div>
+</div>
