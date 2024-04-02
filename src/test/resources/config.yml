@@ -1,0 +1,6 @@
+name: suman
+reqres_baseUrl: https://reqres.in/
+get_user: api/users
+Module_Name:
+  - ABC: Yes
+  - PQR: No
