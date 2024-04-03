@@ -3,5 +3,7 @@ Meta:
 
 
 Scenario: get the user list
-Given I am getting user details
+Meta:
+@GET_USER
+Given I am getting user details of page 2
 Given I am fetching user list
